@@ -15,3 +15,83 @@ body {
 a {
   text-decoration: none;
 }
+
+:root {
+  --font-heading: 'Fraunces', serif;
+  --font-body: 'Barlow', sans-serif;
+  --color-cream: #fefcf7;
+  --color-cyan-dark: #0e8784;
+  --color-cyan-light: #66d2cf;
+  --color-disabled: #e2dedb;
+  --color-grey: #83888f;
+  --color-grey-dark: #333d4b;
+  --color-orange: #fdd6ba;
+  --color-white: #fff;
+}
+
+.heading-xxl {
+  font-family: var(--font-heading);
+  font-style: normal;
+  font-weight: 900;
+  color: var(--color-grey);
+  font-size: 15rem;
+  line-height: 7.2rem;
+  text-transform: lowercase;
+  letter-spacing: 13px;
+}
+
+.heading-xl {
+  font-family: var(--font-heading);
+  color: var(--color-grey-dark);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 7.2rem;
+  line-height: 7.2rem;
+}
+
+.heading-lg {
+  font-family: var(--font-heading);
+  color: var(--color-grey-dark);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 4.8rem;
+}
+
+.heading-md {
+  font-family: var(--font-heading);
+  color: var(--color-grey-dark);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+}
+
+.heading-sm {
+  font-family: var(--font-heading);
+  color: var(--color-grey-dark);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+}
+
+.font-body {
+  font-family: var(--color-grey-darkfont-body);
+  font-style: normal;
+  color: var(--color-grey-dark);
+  font-size: 1.6rem;
+  line-height: 2.6rem;  
+  font-weight: 400;
+}
+
+.font-nav {
+  font-family: var(--font-body);
+  font-style: normal;
+  color: var(--color-grey);
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+}
