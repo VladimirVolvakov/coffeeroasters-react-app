@@ -1,0 +1,25 @@
+.btn {
+  display: inline-block;
+  width: 21.7rem;
+  padding: 1.55rem 0;
+  border: none;
+  border-radius: 0.6rem;
+  background-color: var(--color-cyan-dark);
+  font-family: var(--font-heading);
+  color: var(--color-cream);
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--color-cyan-light);
+}
+
+.btn-disabled {
+  background-color: var(--color-disabled);
+}
