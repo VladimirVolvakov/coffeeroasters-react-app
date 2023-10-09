@@ -20,6 +20,7 @@
   background-color: var(--color-cyan-light);
 }
 
-.btn-disabled {
+.btn-disabled,
+.btn-disabled:hover {
   background-color: var(--color-disabled);
 }
