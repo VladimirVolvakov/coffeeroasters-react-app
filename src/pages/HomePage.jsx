@@ -1,8 +1,6 @@
 const HomePage = () => {
   return (
-    <>
-      CoffeeRoasters Project
-    </>
+    <></>
   );
 };
 
