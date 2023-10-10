@@ -1,12 +1,11 @@
-import Button from "./components/Button";
+import Container from "./layout/Container";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-    <div>
-      CoffeeRoasters Project
-
-      <Button>Button</Button>
-    </div>
+    <Container>
+      <HomePage />
+    </Container>
   );
 }
 
