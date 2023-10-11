@@ -1,11 +1,9 @@
-import styles from "./Button.module.css";
+import "./Button.css";
 
 const Button = ({ children, isDisabled }) => {
   return (
     <button
-      className={`${styles.btn} ${
-        isDisabled ? `${styles["btn-disabled"]}` : ""
-      }`}
+      className={`btn {isDisabled ? "btn-disabled" : ""}`}
       disabled={isDisabled}
     >
       {children}

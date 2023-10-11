@@ -1,17 +1,26 @@
+import "../index.css";
+import "./Header.css";
+
 const Header = () => {
   return (
-    <header>
+    <header className="header">
       <img src="assets/shared/desktop/logo.svg" alt="Coffeeroasters' logo" />
       <nav>
-        <ul>
+        <ul className="header__nav-menu">
           <li>
-            <a href="/index.html">Home</a>
+            <a href="/index.html" className="font-nav header__nav-link">
+              Home
+            </a>
           </li>
           <li>
-            <a href="/about-us.html">About us</a>
+            <a href="/about-us.html" className="font-nav header__nav-link">
+              About us
+            </a>
           </li>
           <li>
-            <a href="/create-plan.html">Create your plan</a>
+            <a href="/create-plan.html" className="font-nav header__nav-link">
+              Create your plan
+            </a>
           </li>
         </ul>
         <div className="burger-nav">
