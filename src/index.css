@@ -24,10 +24,14 @@ html {
 body {
   box-sizing: border-box;
   background-color: var(--color-cream);
+  padding-bottom: 8.8rem;
+}
+
+#root {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 8.8rem;
 }
 
 a {

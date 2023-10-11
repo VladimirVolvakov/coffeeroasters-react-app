@@ -4,7 +4,11 @@ import "./Header.css";
 const Header = () => {
   return (
     <header className="header">
-      <img src="assets/shared/desktop/logo.svg" alt="Coffeeroasters' logo" />
+      <img
+        src="assets/shared/desktop/logo.svg"
+        alt="Coffeeroasters' logo"
+        className="logo"
+      />
       <nav>
         <ul className="header__nav-menu">
           <li>
