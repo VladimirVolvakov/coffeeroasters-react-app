@@ -22,3 +22,54 @@
   color: var(--color-cream);
   opacity: 0.8;
 }
+
+@media only screen and (max-width: 900px) {
+  .hero {
+    height: 50rem;
+    background: url("../../public/assets/home/tablet/image-hero-coffeepress.jpg"),
+      lightgray 0px 0px / 100% 100% no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-left: 8.42%;
+  }
+
+  .hero__heading {
+    width: 32.9rem;
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+  }
+
+  .hero__subheading {
+    width: 39.8rem;
+    margin: 2.4rem 0 4rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .hero {
+    background: url("../../public/assets/home/mobile/image-hero-coffeepress.jpg"),
+      lightgray 0px 0px / 100% 100% no-repeat;
+    background-size: cover;
+    padding: 0 7.34%;
+  }
+
+  .hero__text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero__heading {
+    width: 100%;
+    font-size: 4rem;
+    line-height: 4rem;
+    text-align: center;
+  }
+
+  .hero__subheading {
+    width: 100%;
+    text-align: center;
+  }
+}

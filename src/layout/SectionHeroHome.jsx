@@ -5,7 +5,7 @@ import "./SectionHeroHome.css";
 const SectionHeroHome = () => {
   return (
     <section className="hero">
-      <div>
+      <div className="hero__text-container">
         <h1 className="heading-xl hero__heading">Great coffee made simple.</h1>
         <p className="font-body hero__subheading">
           Start your mornings with the world's best coffees. Try our expertly
