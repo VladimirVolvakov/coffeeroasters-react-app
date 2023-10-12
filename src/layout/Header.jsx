@@ -7,7 +7,7 @@ const Header = () => {
       <img
         src="assets/shared/desktop/logo.svg"
         alt="Coffeeroasters' logo"
-        className="logo"
+        className="header__logo"
       />
       <nav>
         <ul className="header__nav-menu">

@@ -41,3 +41,55 @@
   filter: brightness(0) saturate(100%) invert(94%) sepia(9%) saturate(1519%)
     hue-rotate(311deg) brightness(108%) contrast(104%);
 }
+
+@media only screen and (max-width: 1050px) {
+  .footer__nav-menu {
+    gap: 2rem;
+  }
+
+  .footer__media-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .footer {
+    padding: 5.4rem 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer__nav {
+    margin: 3.2rem 0 6.5rem;
+  }
+
+  .footer__nav-menu {
+    gap: 3.3rem;
+  }
+
+  .footer__media-links {
+    gap: 2.4rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .footer {
+    padding: 5.4rem 0;
+    gap: 4.85rem;
+  }
+
+  .footer__logo {
+    width: 21.78rem;
+  }
+
+  .footer__nav {
+    margin: 0;
+  }
+
+  .footer__nav-menu {
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+}

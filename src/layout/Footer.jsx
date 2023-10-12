@@ -7,6 +7,7 @@ const Footer = () => {
       <img
         src="assets/shared/desktop/logo-light.svg"
         alt="Coffeeroasters' logo"
+        className="footer__logo"
       />
       <nav className="footer__nav">
         <ul className="footer__nav-menu">
