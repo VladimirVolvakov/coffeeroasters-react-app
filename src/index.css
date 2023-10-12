@@ -87,7 +87,7 @@ a {
 }
 
 .font-body {
-  font-family: var(--color-grey-darkfont-body);
+  font-family: var(--font-body);
   font-style: normal;
   color: var(--color-grey-dark);
   font-size: 1.6rem;
