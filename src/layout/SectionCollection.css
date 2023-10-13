@@ -16,7 +16,7 @@
   text-align: center;
 }
 
-.collection__heading > h2 {
+.collection__heading-text {
   width: 100%;
   position: absolute;
   top: 8.6rem;
@@ -28,5 +28,78 @@
   top: -5.5rem;
   width: 100%;
   display: flex;
-  gap: 3rem;
+  gap: 2.7%;
+}
+
+@media only screen and (max-width: 1350px) {
+  .collection__heading-text {
+    letter-spacing: 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .collection__heading-text {
+    font-size: 12rem;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .collection {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .collection {
+    padding: 14.4rem 0 12.9rem;
+  }
+  
+  .collection__heading {
+    height: 11.8rem;
+  }
+  
+  .collection__heading-text {
+    font-size: 9.6rem;
+    top: 2.7rem;
+  }
+  
+  .collection__gallery {
+    top: -4.3rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.2rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .collection__heading-text {
+    font-size: 6.8rem;
+  }
+
+  .collection__gallery {
+    top: -4.3rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .collection {
+    padding: 12rem 0;
+  }
+  
+  .collection__heading {
+    height: 7.2rem;
+    margin-bottom: 1.3rem;
+  }
+  
+  .collection__heading-text {
+    font-size: 4rem;
+    top: 0;
+  }
+  
+  .collection__gallery {
+    position: relative;
+    top: 0;
+    gap: 4.8rem;
+  }  
 }

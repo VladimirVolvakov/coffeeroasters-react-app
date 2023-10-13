@@ -18,3 +18,56 @@
 .collection__card-desc {
   text-align: center;
 }
+
+@media only screen and (max-width: 900px) {
+  .collection__card {
+    width: 57.3rem;
+    flex-direction: row;
+    align-items: center;
+    gap: 3.5rem;
+  }
+  
+  .collection__card-img {
+    width: 25.6rem;
+    margin-bottom: 0;
+  }
+  
+  .collection__card-title {
+    text-align: left;
+  }
+  
+  .collection__card-desc {
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .collection__card {
+    width: 47rem;
+    gap: 2rem;
+  }
+  
+  .collection__card-img {
+    width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .collection__card {
+    width: 100%;
+    max-width: 28.2rem;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+  
+  .collection__card-title {
+    text-align: center;
+    margin-bottom: 1.6rem;
+  }
+  
+  .collection__card-desc {
+    text-align: center;
+  }
+}

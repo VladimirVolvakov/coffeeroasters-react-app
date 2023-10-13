@@ -33,7 +33,7 @@ const SectionCollection = () => {
   return (
     <section className="collection">
       <div className="collection__heading">
-        <h2 className="heading-xxl">Our collection</h2>
+        <h2 className="heading-xxl collection__heading-text">Our collection</h2>
       </div>
       <div className="collection__gallery">
         {collectionInfo.map((item) => (
