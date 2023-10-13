@@ -1,0 +1,30 @@
+.collection {
+  padding: 13.6rem 6.64% 18.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.collection__heading {
+  position: relative;
+  height: 19.6rem;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(254, 252, 247, 0) 0%,
+    var(--color-cream) 100%
+  );
+  text-align: center;
+}
+
+.collection__heading > h2 {
+  width: 100%;
+  position: absolute;
+  top: 8.6rem;
+  z-index: -1;
+}
+
+.collection__gallery {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

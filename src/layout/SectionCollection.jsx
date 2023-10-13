@@ -1,4 +1,5 @@
 import CollectionItem from "../components/CollectionItem";
+import "../index.css";
 import "./SectionCollection.css";
 
 const collectionInfo = [
@@ -30,11 +31,11 @@ const collectionInfo = [
 
 const SectionCollection = () => {
   return (
-    <section>
-      <div>
-        <h2>Our collection</h2>
+    <section className="collection">
+      <div className="collection__heading">
+        <h2 className="heading-xxl">Our collection</h2>
       </div>
-      <div>
+      <div className="collection__gallery">
         {collectionInfo.map((item) => (
           <CollectionItem
             key={item.title}
