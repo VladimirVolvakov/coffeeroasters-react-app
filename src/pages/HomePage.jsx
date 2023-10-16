@@ -1,4 +1,5 @@
 import SectionCollection from "../layout/SectionCollection";
+import SectionFeatures from "../layout/SectionFeatures";
 import SectionHeroHome from "../layout/SectionHeroHome";
 
 const HomePage = () => {
@@ -6,6 +7,7 @@ const HomePage = () => {
     <main>
       <SectionHeroHome />
       <SectionCollection />
+      <SectionFeatures />
     </main>
   );
 };
