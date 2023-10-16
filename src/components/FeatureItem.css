@@ -1,0 +1,31 @@
+.feature__item {
+  height: 35rem;
+  padding: 4.8rem 4.28%;
+  background-color: var(--color-cyan-dark);
+  border-radius: 0.8rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.feature__text {
+  margin-top: 5.6rem;
+}
+
+.feature__item:nth-child(3) .feature__text {
+  margin-top: 6.7rem;
+}
+
+.feature__title {
+  color: var(--color-cream);
+  margin-bottom: 2.4rem;
+  text-align: center;
+}
+
+.feature__desc {
+  width: 100%;
+  color: var(--color-cream);
+  text-align: center;
+}
