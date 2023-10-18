@@ -1,0 +1,55 @@
+.workflow {
+  padding: 20rem 11.72% 20rem 6.64%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.workflow__heading {
+  color: var(--color-grey);
+  margin-bottom: 8rem;
+}
+
+.workflow__progress {
+  width: 75.694%;
+  margin-bottom: 6.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.workflow__circle {
+  width: 3.1rem;
+  height: 3.1rem;
+  border: 2px solid var(--color-cyan-dark);
+  border-radius: 50%;
+}
+
+.workflow__circle:nth-child(2) {
+  position: relative;
+}
+
+.workflow__circle:nth-child(2)::before,
+.workflow__circle:nth-child(2)::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 35rem;
+  top: 50%;
+  background-color: var(--color-orange);
+}
+
+.workflow__circle:nth-child(2)::before {
+  left: calc(100% + 1px);
+}
+
+.workflow__circle:nth-child(2)::after {
+  right: calc(100% + 2px);
+}
+
+.workflow__description {
+  width: 100%;
+  display: flex;
+  gap: 9.5rem;
+  margin-bottom: 6.4rem;
+}

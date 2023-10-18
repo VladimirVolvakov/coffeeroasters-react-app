@@ -7,13 +7,13 @@ import { workflowStages } from "../data/indexPageData";
 const SectionWorkflow = () => {
   return (
     <section className="workflow">
-      <h2>How it works</h2>
-      <div class="workflow__progress">
-        <div class="workflow__circle"></div>
-        <div class="workflow__circle"></div>
-        <div class="workflow__circle"></div>
+      <h2 className="heading-sm workflow__heading">How it works</h2>
+      <div className="workflow__progress">
+        <div className="workflow__circle"></div>
+        <div className="workflow__circle"></div>
+        <div className="workflow__circle"></div>
       </div>
-      <div>
+      <div className="workflow__description">
         {workflowStages.map((stage) => (
           <WorkflowStage
             key={stage.title}
