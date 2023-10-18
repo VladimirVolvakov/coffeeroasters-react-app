@@ -1,0 +1,16 @@
+.workflow-stage__card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.workflow-stage__number {
+  color: var(--color-orange);
+  margin-bottom: 3.8rem;
+}
+
+.workflow-stage__title {
+  width: 89.47%;
+  margin-bottom: 4.3rem;
+}

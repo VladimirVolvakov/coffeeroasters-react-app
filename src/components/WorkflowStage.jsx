@@ -3,10 +3,10 @@ import "./WorkflowStage.css";
 
 const WorkflowStage = ({ number, title, description }) => {
   return (
-    <div>
-      <div>{number}</div>
-      <div>{title}</div>
-      <div>{description}</div>
+    <div className="workflow-stage__card">
+      <div className="heading-xl workflow-stage__number">{number}</div>
+      <div className="heading-md workflow-stage__title">{title}</div>
+      <div className="font-body">{description}</div>
     </div>
   );
 };
