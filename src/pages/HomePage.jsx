@@ -1,6 +1,7 @@
 import SectionCollection from "../layout/SectionCollection";
 import SectionFeatures from "../layout/SectionFeatures";
 import SectionHeroHome from "../layout/SectionHeroHome";
+import SectionWorkflow from "../layout/SectionWorkflow";
 
 const HomePage = () => {
   return (
@@ -8,6 +9,7 @@ const HomePage = () => {
       <SectionHeroHome />
       <SectionCollection />
       <SectionFeatures />
+      <SectionWorkflow />
     </main>
   );
 };
