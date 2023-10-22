@@ -6,7 +6,7 @@ const WorkflowStage = ({ number, title, description }) => {
     <div className="workflow-stage__card">
       <div className="heading-xl workflow-stage__number">{number}</div>
       <div className="heading-md workflow-stage__title">{title}</div>
-      <div className="font-body">{description}</div>
+      <div className="font-body workflow-stage__description">{description}</div>
     </div>
   );
 };

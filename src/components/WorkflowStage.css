@@ -2,7 +2,7 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
 }
 
 .workflow-stage__number {
@@ -13,4 +13,42 @@
 .workflow-stage__title {
   width: 89.47%;
   margin-bottom: 4.3rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .workflow-stage__number {
+    margin-bottom: 4.2rem;
+  }
+
+  .workflow-stage__title {
+    width: 100%;
+    font-size: 2.8rem;
+    line-height: 3.2rem;
+    margin-bottom: 3.9rem;
+  }
+
+  .workflow-stage__description {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .workflow-stage__card {
+    /* flex: 1; */
+    align-items: center;
+  }
+
+  .workflow-stage__number {
+    margin-bottom: 2.4rem;
+  }
+
+  .workflow-stage__title {
+    text-align: center;
+    margin-bottom: 2.4rem;
+  }
+
+  .workflow-stage__description {
+    text-align: center;
+  }
 }
