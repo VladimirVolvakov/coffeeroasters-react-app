@@ -18,4 +18,54 @@
   width: 44.5rem;
   margin-top: 2.4rem;
   color: var(--color-cream);
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 900px) {
+  .about-us {
+    height: 40rem;
+    background: url("../../public/assets/about/tablet/image-hero-whitecup.jpg"),
+      lightgray 0px 0px / 100% 100% no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-left: 8.42%;
+  }
+
+  .about-us__heading {
+    font-size: 3.2rem;
+    line-height: 4rem;
+  }
+
+  .about-us__subheading {
+    width: 39.8rem;
+    margin-top: 2.4rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .about-us {
+    background: url("../../public/assets/about/mobile/image-hero-whitecup.jpg"),
+      lightgray 0px 0px / 100% 100% no-repeat;
+    background-size: cover;
+    padding: 0 7.34%;
+  }
+
+  .about-us__text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-us__heading {
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+    text-align: center;
+  }
+
+  .about-us__subheading {
+    width: 100%;
+    text-align: center;
+  }
 }
