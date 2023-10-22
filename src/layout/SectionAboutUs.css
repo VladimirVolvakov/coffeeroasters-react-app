@@ -1,0 +1,21 @@
+.about-us {
+  height: 45rem;
+  border-radius: 1rem;
+  background: url("../../public/assets/about/desktop/image-hero-whitecup.jpg"),
+    lightgray 0px 0px / 100% 100% no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-left: 6.64%;
+  display: flex;
+  align-items: center;
+}
+
+.about-us__heading {
+  color: var(--color-cream);
+}
+
+.about-us__subheading {
+  width: 44.5rem;
+  margin-top: 2.4rem;
+  color: var(--color-cream);
+}
