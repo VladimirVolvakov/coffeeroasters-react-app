@@ -1,0 +1,38 @@
+.quality {
+  height: 47.4rem;
+  padding: 8.8rem 6.64% 0;
+  margin-top: 7.6rem;
+  background: url("../../public/assets/about/desktop/bg-quality.png"),
+    lightgray 0px 0px / 100% 100% no-repeat;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 11.26%;
+}
+
+.quality__text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 48.65%;
+}
+
+.quality__heading {
+  color: var(--color-cream);
+  margin-bottom: 3.2rem;
+}
+
+.quality__description {
+  color: var(--color-cream);
+  opacity: 0.8;
+}
+
+.quality__image {
+  width: 40.09%;
+  height: 47.4rem;
+  object-fit: cover;
+  border-radius: 0.8rem;
+  position: relative;
+  top: -16.4rem;
+}
