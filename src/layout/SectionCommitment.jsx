@@ -1,13 +1,17 @@
+import "../index.css";
+import "./SectionCommitment.css";
+
 const SectionCommitment = () => {
   return (
     <section className="commitment">
         <img
           src="./assets/about/desktop/image-commitment.jpg"
           alt="Discover world's best coffee"
+          className="commitment__image"
         />
-        <div>
-          <h2>Our commitment</h2>
-          <p>
+        <div className="commitment__text-container">
+          <h2 className="heading-lg commitment__heading">Our commitment</h2>
+          <p className="font-body commitment__description">
             We’re built on a simple mission and a commitment to doing good along
             the way. We want to make it easy for you to discover and brew the
             world’s best coffee at home. It all starts at the source. To locate

@@ -1,0 +1,26 @@
+.commitment {
+  padding: 16.8rem 6.64%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 11.26%;
+}
+
+.commitment__image {
+  width: 40.09%;
+}
+
+.commitment__text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 48.65%;
+}
+
+.commitment__heading {
+  margin-bottom: 3.2rem;
+}
+
+.commitment__description {
+  opacity: 0.8;
+}
