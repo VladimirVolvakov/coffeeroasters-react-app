@@ -3,7 +3,7 @@
   padding: 8.8rem 6.64% 0;
   margin-top: 7.6rem;
   background: url("../../public/assets/about/desktop/bg-quality.png"),
-    lightgray 0px 0px / 100% 100% no-repeat;
+    var(--color-footer) 0px 0px / 100% 100% no-repeat;
   border-radius: 1rem;
   display: flex;
   justify-content: space-between;
@@ -29,10 +29,74 @@
 }
 
 .quality__image {
+  background: url("../../public/assets/about/desktop/image-quality.jpg"),
+    lightgray 0px 0px / 100% 100% no-repeat;
   width: 40.09%;
   height: 47.4rem;
   object-fit: cover;
   border-radius: 0.8rem;
   position: relative;
   top: -16.4rem;
+}
+
+@media only screen and (max-width: 1350px) {
+  .quality {
+    gap: 3%;
+  }
+
+  .quality__text-container {
+    width: 56.91%;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .quality {
+    padding: 8.8rem 5.5% 0;
+  }
+
+  .quality__heading {
+    font-size: 3.2rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .quality {
+    height: max-content;
+    padding: 0 6.97% 6.7rem;
+    margin-top: 16rem;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0;
+  }
+
+  .quality__text-container {
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    margin-top: 6.4rem;
+    position: relative;
+    top: -16rem;
+  }
+
+  .quality__heading {
+    margin-bottom: 2.4rem;
+  }
+
+  .quality__description {
+    width: 95%;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+  }
+
+  .quality__image {
+    background: url("../../public/assets/about/tablet/image-quality.jpg"),
+      lightgray 0px 0px / 100% 100% no-repeat;
+    width: 100%;
+    max-width: 57.3rem;
+    height: 32rem;
+    position: relative;
+    top: -16rem;
+  }
 }

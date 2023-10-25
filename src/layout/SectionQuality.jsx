@@ -15,11 +15,7 @@ const SectionQuality = () => {
             brewing is easy and enjoyable.
           </p>
         </div>
-        <img
-          src="./assets/about/desktop/image-quality.jpg"
-          alt="Uncompromising quality of our coffee"
-          className="quality__image"
-        />
+        <div className="quality__image"></div>
       </section>
   );
 };
