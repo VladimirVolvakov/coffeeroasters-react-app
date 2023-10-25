@@ -61,7 +61,8 @@
 
 @media only screen and (max-width: 900px) {
   .quality {
-    height: max-content;
+    position: relative;
+    height: 47.5rem;
     padding: 0 6.97% 6.7rem;
     margin-top: 16rem;
     flex-direction: column-reverse;
@@ -75,8 +76,6 @@
     width: 100%;
     height: fit-content;
     margin-top: 6.4rem;
-    position: relative;
-    top: -16rem;
   }
 
   .quality__heading {
@@ -96,7 +95,7 @@
     width: 100%;
     max-width: 57.3rem;
     height: 32rem;
-    position: relative;
+    position: absolute;
     top: -16rem;
   }
 }
