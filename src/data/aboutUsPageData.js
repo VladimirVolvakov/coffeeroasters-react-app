@@ -20,7 +20,7 @@ export const headquarters = [
     phoneForLink: "+14164852997",
   },
   {
-    image: "./assets/about/desktop/illustration-uk.svg",
+    image: "./assets/about/desktop/illustration-australia.svg",
     imageDesc: "Our headquarter in Australia",
     country: "Australia",
     address: "36 Swanston Street",

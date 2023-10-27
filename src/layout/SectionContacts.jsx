@@ -6,8 +6,8 @@ import "./SectionContacts.css";
 const SectionContacts = () => {
   return (
     <section className="contacts">
-      <h2>Our headquarters</h2>
-      <div>
+      <h2 className="heading-sm contacts__heading">Our headquarters</h2>
+      <div className="contacts__headquarters">
         {headquarters.map((headquarter) => (
           <HeadquarterCard key={headquarter.city} headquarter={headquarter} />
         ))}
