@@ -15,3 +15,52 @@
   display: flex;
   gap: 9.09%;
 }
+
+@media only screen and (max-width: 1350px) {
+  .contacts {
+    padding: 16.8rem 5.5% 16.8rem 3%;
+  }
+
+  .contacts__headquarters {
+    gap: 8%;
+  }  
+}
+
+@media only screen and (max-width: 1200px) {
+  .contacts {
+    padding: 16.8rem 0;
+  }
+
+  .contacts__headquarters {
+    gap: 7%;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .contacts__headquarters {
+    gap: 5%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .contacts {
+    padding: 14.4rem 0;
+  }
+  
+  .contacts__headquarters {
+    gap: 1.45%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .contacts {
+    padding: 12rem 0;
+    align-items: center;
+  }
+  
+  .contacts__headquarters {
+    flex-direction: column;
+    align-items: center;
+    gap: 8rem;
+  }
+}
