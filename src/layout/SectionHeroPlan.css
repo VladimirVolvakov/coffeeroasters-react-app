@@ -1,0 +1,22 @@
+.hero-plan {
+  height: 45rem;
+  border-radius: 1rem;
+  background: url("../../public/assets/plan/desktop/image-hero-blackcup.jpg"),
+    lightgray 0px 0px / 100% 100% no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-left: 6.64%;
+  display: flex;
+  align-items: center;
+}
+
+.hero-plan__heading {
+  color: var(--color-cream);
+}
+
+.hero-plan__subheading {
+  width: 44.5rem;
+  margin-top: 3.2rem;
+  color: var(--color-cream);
+  opacity: 0.8;
+}
