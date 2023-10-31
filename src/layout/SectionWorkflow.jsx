@@ -4,16 +4,18 @@ import "../index.css";
 import "./SectionWorkflow.css";
 import { workflowStages } from "../data/indexPageData";
 
-const SectionWorkflow = () => {
+const SectionWorkflow = ({ type = "light" }) => {
   return (
-    <section className="workflow">
-      <h2 className="heading-sm workflow__heading">How it works</h2>
+    <section className={`workflow ${type === "dark" ? "workflow--dark" : ""}`}>
+      {type !== "dark" && (
+        <h2 className="heading-sm workflow__heading">How it works</h2>
+      )}
       <div className="workflow__progress">
         <div className="workflow__circle"></div>
         <div className="workflow__circle"></div>
         <div className="workflow__circle"></div>
       </div>
-      <div className="workflow__description">
+      <div className={`workflow__description ${type === "dark" ? "workflow__description--dark" : ""}`}>
         {workflowStages.map((stage) => (
           <WorkflowStage
             key={stage.title}
