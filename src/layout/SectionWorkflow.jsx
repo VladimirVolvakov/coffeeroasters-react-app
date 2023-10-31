@@ -22,12 +22,15 @@ const SectionWorkflow = ({ type = "light" }) => {
             number={stage.number}
             title={stage.title}
             description={stage.description}
+            type={type}
           />
         ))}
       </div>
-      <a href="/create-plan.html">
-        <Button>Create your plan</Button>
-      </a>
+      {type !== "dark" && (
+        <a href="/create-plan.html">
+          <Button>Create your plan</Button>
+        </a>
+      )}
     </section>
   );
 };
