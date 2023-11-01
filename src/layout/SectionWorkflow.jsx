@@ -15,7 +15,11 @@ const SectionWorkflow = ({ type = "light" }) => {
         <div className="workflow__circle"></div>
         <div className="workflow__circle"></div>
       </div>
-      <div className={`workflow__description ${type === "dark" ? "workflow__description--dark" : ""}`}>
+      <div
+        className={`workflow__description ${
+          type === "dark" ? "workflow__description--dark" : ""
+        }`}
+      >
         {workflowStages.map((stage) => (
           <WorkflowStage
             key={stage.title}
